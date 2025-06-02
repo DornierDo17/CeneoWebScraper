@@ -2,7 +2,7 @@
 {% block title %}Opinion extraction {% endblock %}
 
 {% block content %}
-    <form action="{{url_for('extract')}}" method="post">
+    <form action="{{url_for('extract')}}" method="post" novalidate>
         {% if form.product_id.error %}
         <ul class="errors">{% for error in form.product_id.errors %}<li>{{error}}</li>{% endfor %}</ul>
         {% endif %}

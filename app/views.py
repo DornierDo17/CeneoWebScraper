@@ -1,3 +1,4 @@
+from app.models import Product
 from app import app
 from flask import render_template, redirect, url_for, request
 from app.forms import ExtractForm
@@ -19,7 +20,16 @@ def extract():
     form = ExtractForm(request.form)
     if form.validate():
         product_id = form.product_id.data
-        return redirect(url_for("product", product_id=product_id))
+        product = Product(product_id)
+        if product.extract_name():
+            product.export_opinions()
+            product.analyze()
+            product.export_info()
+            product.export_opinions()
+            
+            return redirect(url_for("product", product_id=product_id))
+        form.product_id.errors.append("The is no product for provided id or product has no opinions")
+        return render_template('extract.html', form=form)
     return render_template("extract.html", form=form)
 
 
