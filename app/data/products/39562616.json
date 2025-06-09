@@ -1,0 +1,60 @@
+{
+    "product_id": "39562616",
+    "product_name": "Samsung Galaxy S5 Neo SM-G903 Czarny",
+    "stats": {
+        "opinions_count": 132,
+        "pros_count": 30,
+        "cons_count": 14,
+        "pros_cons_count": 9,
+        "average_rate": 4.465909090909091,
+        "pros": {
+            "functionality": 20,
+            "appearance": 9,
+            "battery life": 6,
+            "ease of use": 6,
+            "battery landing 100%": 5,
+            "resistance": 5,
+            "Display: Design: Life": 5,
+            "The screen is not beaten": 3,
+            "The battery holds for two days at a fairly intersection": 2,
+            "Software disadvantages": 2,
+            "After half a year of use, it hangs": 1,
+            "Home button - you have to press hard": 1
+        },
+        "cons": {
+            "battery landing 100%": 3,
+            "battery life": 3,
+            "poor sound quality from the speaker": 3,
+            "resistance": 3,
+            "functionality": 3,
+            "can sneak": 3,
+            "Home button - you have to press hard": 2,
+            "The battery holds for two days at a fairly intersection": 2,
+            "Software disadvantages": 2,
+            "it can't cope with many applications": 1,
+            "After half a year of use, it hangs": 1,
+            "He turned off himself more than once": 1,
+            "jam": 1,
+            "no MHL": 1,
+            "TEVERING TAKE": 1
+        },
+        "recommendations": {
+            "false": 7,
+            "true": 114,
+            "NaN": 0
+        },
+        "stars": {
+            "0.0": 0,
+            "0.5": 3,
+            "1.0": 1,
+            "1.5": 2,
+            "2.0": 1,
+            "2.5": 0,
+            "3.0": 5,
+            "3.5": 3,
+            "4.0": 19,
+            "4.5": 19,
+            "5.0": 79
+        }
+    }
+}

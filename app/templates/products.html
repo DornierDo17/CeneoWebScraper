@@ -1,5 +1,39 @@
 {% extends 'base.html' %}
-{% block title %}List of products {% endblock %}
+{% block title %}List of Products{% endblock %}
 {% block content %}
+
+<div class="container">
+    <h1>List of Products</h1>
+    <div class="table-container" >
+        <table>
+            <thead>
+                <tr>
+                    <th>Product Name</th>
+                    <th>Number of Opinions</th>
+                    <th>Opinions with Disadvantages</th>
+                    <th>Opinions with Advantages</th>
+                    <th>Average Score</th>
+                    <th>Download Opinions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="product.html?id=1"></a></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <div class="button-group">
+                            <a href="/download?product_id=1&file_type=csv" class="button csv">CSV</a>
+                            <a href="/download?product_id=1&file_type=xlsx" class="button xlsx">XLSX</a>
+                            <a href="/download?product_id=1&file_type=json" class="button json">JSON</a>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
 
 {% endblock %}
